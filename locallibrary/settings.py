@@ -133,4 +133,5 @@ LOGIN_REDIRECT_URL = '/'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
+# Activate Django-Heroku.
 django_heroku.settings(locals())
